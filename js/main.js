@@ -4,7 +4,7 @@ const stations = [
   {
     id: "PUR84F3EB7BCB5",
     location: "Αντλιοστασιο",
-    image: "tsitsani.jpg"
+    image: "antlia.jpg"
   },
   {
     id: "PUR84F3EB7BC99F",
@@ -99,6 +99,7 @@ let createTheSlider = (measurements) => {
         </div>
       </div>`
     }
+    
     $(".slider").append(html);
     $(".slider").simpleSlider({
       pauseOnHover: true,
